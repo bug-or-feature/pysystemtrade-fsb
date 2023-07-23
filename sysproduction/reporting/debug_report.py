@@ -11,7 +11,6 @@ from sysproduction.reporting.reporting_functions import (
 )
 
 
-
 """
 
 >>> from sysproduction.reporting.debug_report import *
@@ -101,15 +100,12 @@ def run_remove_markets_report():
     do_report(remove_markets_report_config.new_config_with_modified_output("console"))
 
 
-
 def run_market_monitor_report():
     pass
 
 
 def run_account_curve_report():
     pass
-
-
 
 
 if __name__ == "__main__":
@@ -132,7 +128,7 @@ if __name__ == "__main__":
     # run_account_curve_report()
     # run_slippage_report()
 
-    #run_fsb_report()
+    # run_fsb_report()
     # run_min_capital_fsb_report()
     # run_instrument_risk_fsb_report()
     # run_fsb_remove_markets_report()
